@@ -1,0 +1,67 @@
+body {
+    background-color: #00ffe8;
+    
+}
+button{
+    color: #fff;
+    margin: 25px 20px;
+    padding: 10px 25px;
+    background:transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+
+}
+
+h1 {
+    color: #fff;
+    background-color: 00ffe8;
+    border-top: 1px solid black;
+    box-shadow: 1px darkgrey;
+    font-size: 80px;
+    align-content: center;
+    margin: 40px 0 30px;
+    line-height: 80px;
+
+}
+
+p{
+    font-size: 40px;
+    color: #fff;
+    padding: 30px 20px;
+    background-color: #00ffe8;
+    font-weight: 300;
+}
+.registerptag{
+    color: black;
+    background-color: #fff;
+    max-width: 750px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+.responsive{
+    width:100%;
+    height:auto;
+}
+
+@media screen and(max-width=600px){
+    h1{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    p{
+        font-size: 20px;
+        padding: 20px 10px;
+    }
+}
+@media screen and(max-width=900px) and (min-width=600px){
+    h1{
+        font-size: 50px;
+        line-height: 65px;
+    }
+    p{
+        font-size: 30px;
+        padding: 25px 15px;
+    }
+}
